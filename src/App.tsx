@@ -14,6 +14,8 @@ const Home     = React.lazy(() => import('./pages/Home'))
 const Services = React.lazy(() => import('./pages/Services'))
 const About    = React.lazy(() => import('./pages/About'))
 const Contact  = React.lazy(() => import('./pages/Contact'))
+const Blog     = React.lazy(() => import('./pages/Blog'))
+const BlogPost = React.lazy(() => import('./pages/BlogPost'))
 const NotFound = React.lazy(() => import('./pages/NotFound'))
 
 const PageFallback = () => (
@@ -31,6 +33,8 @@ function AnimatedRoutes() {
           <Route path="/services" element={<Layout><Services /></Layout>} />
           <Route path="/about"    element={<Layout><About /></Layout>} />
           <Route path="/contact"  element={<Layout><Contact /></Layout>} />
+          <Route path="/blog"       element={<Layout><Blog /></Layout>} />
+          <Route path="/blog/:slug" element={<Layout><BlogPost /></Layout>} />
           <Route path="*"         element={<Layout><NotFound /></Layout>} />
         </Routes>
       </AnimatePresence>
