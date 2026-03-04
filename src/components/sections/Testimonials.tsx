@@ -38,7 +38,6 @@ export function Testimonials() {
           }}
           className="testimonials-grid"
         >
-          {/* TODO: Replace with real Google reviews */}
           {testimonials.map((t, i) => (
             <motion.div
               key={i}
