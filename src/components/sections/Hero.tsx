@@ -230,6 +230,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
+            className="hero-trust-stats"
             style={{
               paddingTop: '32px',
               borderTop: '1px solid rgba(248,247,245,0.15)',
@@ -336,6 +337,7 @@ export function Hero() {
       <style>{`
         @media (max-width: 768px) {
           .hero-grid { grid-template-columns: 1fr !important; }
+          .hero-trust-stats { display: none !important; }
         }
       `}</style>
     </section>
