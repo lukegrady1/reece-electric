@@ -10,7 +10,7 @@ const stats = [
 
 export function StatsRow() {
   return (
-    <section style={{ background: 'var(--color-primary)', padding: 'clamp(64px, 8vw, 100px) 24px', position: 'relative', overflow: 'hidden' }}>
+    <section className="stats-section-home" style={{ background: 'var(--color-primary)', padding: 'clamp(64px, 8vw, 100px) 24px', position: 'relative', overflow: 'hidden' }}>
 
       <div style={{ maxWidth: '1100px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
         <div style={{ textAlign: 'center', marginBottom: '56px' }}>
@@ -32,7 +32,7 @@ export function StatsRow() {
 
       <style>{`
         @media (max-width: 768px) {
-          .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          .stats-section-home { display: none !important; }
         }
       `}</style>
     </section>
