@@ -1,0 +1,81 @@
+/* ============================================================
+   CSS Variables — Black & Red
+   ============================================================ */
+:root {
+  /* Palette layer */
+  --palette-black-900: #0A0A0A;
+  --palette-black-700: #1A1A1A;
+  --palette-black-500: #2A2A2A;
+  --palette-black-300: #888888;
+  --palette-black-100: #F0EDEC;
+  --palette-warm-white: #F5F4F2;
+  --palette-white: #FFFFFF;
+  --palette-surface-2: #EEECE8;
+  --palette-red-600: #E8A020;
+  --palette-red-700: #C4841A;
+  --palette-red-100: #FDF3E0;
+  --palette-border: #E0DDD8;
+  --palette-danger: #C8222A;
+
+  /* Semantic layer */
+  --color-bg:           var(--palette-warm-white);
+  --color-surface:      var(--palette-white);
+  --color-surface-2:    var(--palette-surface-2);
+
+  --color-ink:          var(--palette-black-900);
+  --color-ink-mid:      #555555;
+  --color-ink-faint:    var(--palette-black-300);
+
+  --color-primary:      var(--palette-black-900);
+  --color-primary-dark: var(--palette-black-700);
+  --color-primary-light:var(--palette-black-500);
+  --color-primary-tint: var(--palette-black-100);
+
+  --color-gold:         var(--palette-red-600);
+  --color-gold-dim:     var(--palette-red-700);
+  --color-gold-light:   var(--palette-red-100);
+
+  --color-accent:       var(--palette-red-600);
+  --color-accent-dim:   var(--palette-red-700);
+  --color-accent-light: var(--palette-red-100);
+
+  --color-border:       var(--palette-border);
+  --color-border-dark:  var(--palette-black-900);
+
+  --color-bg-alt:       var(--palette-surface-2);
+
+  --color-danger:       var(--palette-danger);
+}
+
+/* Body — clean warm white */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
+
+/* Focus ring */
+*:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* Skip to content */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: var(--color-primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  z-index: 9999;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
