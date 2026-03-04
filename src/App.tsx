@@ -45,7 +45,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/reece-electric">
         <AnimatedRoutes />
       </BrowserRouter>
     </HelmetProvider>

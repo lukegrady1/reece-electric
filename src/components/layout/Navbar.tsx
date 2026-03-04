@@ -56,7 +56,7 @@ export function Navbar() {
           {/* Logo */}
           <NavLink to="/" style={{ textDecoration: 'none' }} aria-label="Reece Group LLC — Home">
             <img
-              src="/logo.PNG"
+              src={`${import.meta.env.BASE_URL}logo.PNG`}
               alt="Reece Group LLC"
               style={{ height: '44px', width: 'auto', display: 'block' }}
             />
@@ -178,7 +178,7 @@ export function Navbar() {
               {/* Top row */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '32px' }}>
                 <img
-                  src="/logo.PNG"
+                  src={`${import.meta.env.BASE_URL}logo.PNG`}
                   alt="Reece Group LLC"
                   style={{ height: '40px', width: 'auto', display: 'block' }}
                 />

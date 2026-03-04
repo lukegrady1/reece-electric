@@ -23,7 +23,7 @@ export function Footer() {
       >
         {/* Col 1: Logo + tagline */}
         <div>
-          <img src="/logo.PNG" alt="Reece Group LLC" style={{ height: '36px', width: 'auto', display: 'block', marginBottom: '16px' }} />
+          <img src={`${import.meta.env.BASE_URL}logo.PNG`} alt="Reece Group LLC" style={{ height: '36px', width: 'auto', display: 'block', marginBottom: '16px' }} />
           <p style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontStyle: 'italic', fontWeight: 300, fontSize: '15px', color: 'rgba(248,247,245,0.75)', lineHeight: 1.7, margin: 0 }}>
             Precision electrical work for homes and businesses. Built to code, done right the first time.
           </p>
