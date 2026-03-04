@@ -59,6 +59,7 @@ export function Navbar() {
               src={`${import.meta.env.BASE_URL}logo.PNG`}
               alt="Reece Group LLC"
               style={{ height: '44px', width: 'auto', display: 'block' }}
+              className="nav-logo"
             />
           </NavLink>
 
@@ -235,6 +236,7 @@ export function Navbar() {
         @media (max-width: 768px) {
           .nav-desktop { display: none !important; }
           .nav-hamburger { display: flex !important; }
+          .nav-logo { height: 32px !important; }
         }
         @media (min-width: 769px) {
           .nav-hamburger { display: none !important; }
