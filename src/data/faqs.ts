@@ -13,7 +13,7 @@ export const faqs = [
   },
   {
     q: 'What areas do you serve?',
-    a: 'We serve all 351 cities and towns across Massachusetts. Based in Paxton, MA, we regularly work throughout Worcester County and beyond.',
+    a: 'We serve all 351 cities and towns across Massachusetts, with a focus on Central Massachusetts and the greater Worcester area.',
   },
   {
     q: 'Can you handle both residential and commercial jobs?',

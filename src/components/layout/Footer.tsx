@@ -66,7 +66,7 @@ export function Footer() {
               reecegroupllc@gmail.com
             </a>
             <span style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontSize: '16px', color: 'rgba(248,247,245,0.7)' }}>
-              Paxton, MA · Worcester County
+              Worcester, MA · Central Massachusetts
             </span>
             <span style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontSize: '16px', color: 'rgba(248,247,245,0.7)' }}>
               Mon–Fri: 7am – 6pm
@@ -99,6 +99,12 @@ export function Footer() {
           </span>
           <span style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontWeight: 400, fontSize: '11px', color: 'rgba(248,247,245,0.55)' }}>
             Licensed Electrician · Massachusetts Lic #9036A1 {/* TODO: Replace with real license # */}
+          </span>
+          <span style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontWeight: 400, fontSize: '11px', color: 'rgba(248,247,245,0.45)' }}>
+            Designed & built by{' '}
+            <a href="https://gradydigital.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(248,247,245,0.55)', textDecoration: 'none' }}>
+              Grady Digital
+            </a>
           </span>
         </div>
       </div>

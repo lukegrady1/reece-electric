@@ -174,7 +174,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           >
-            <AnnotationLabel text="Licensed Electrician · Paxton, MA" inverted />
+            <AnnotationLabel text="Licensed Electrician · Worcester, MA" inverted />
           </motion.div>
 
           <motion.h1
@@ -191,8 +191,25 @@ export function Hero() {
               margin: '20px 0 0',
             }}
           >
-            Reece<br />Group LLC.
+            Reece Group LLC
           </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
+            style={{
+              fontFamily: '"Raleway", sans-serif',
+              fontWeight: 600,
+              fontSize: 'clamp(16px, 2.2vw, 22px)',
+              color: 'rgba(248,247,245,0.65)',
+              letterSpacing: '-0.01em',
+              margin: '12px 0 0',
+              lineHeight: 1.3,
+            }}
+          >
+            Electrical Contracting
+          </motion.p>
 
           <motion.div
             initial={{ opacity: 0, scaleX: 0 }}

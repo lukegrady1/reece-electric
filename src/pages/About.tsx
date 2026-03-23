@@ -33,7 +33,7 @@ const credentials = [
   'General Liability Insurance',
   'Workers Compensation Insured',
   'Serving All 351 MA Cities & Towns',
-  'Based in Paxton, MA — Worcester County',
+  'Based in Worcester, MA — Central Massachusetts',
 ]
 
 export default function About() {
@@ -45,7 +45,7 @@ export default function About() {
   return (
     <PageWrapper>
       <SEOHead
-        title="About Reece Group LLC | Licensed Electrician — Paxton, MA"
+        title="About Reece Group LLC | Licensed Electrician — Worcester, MA"
         description="Meet Anthony Reece, founder of Reece Group LLC — a licensed electrician committed to quality, safety, and transparent pricing across Massachusetts."
         canonical="/about"
         schema={breadcrumbSchema([
@@ -121,7 +121,7 @@ export default function About() {
         {/* Left: Story */}
         <div>
           <p style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontSize: '17px', lineHeight: 1.85, color: 'var(--color-ink-mid)', marginBottom: '24px' }}>
-            Reece Group LLC was founded by Anthony Reece with one guiding principle: that electrical work should be done right, explained clearly, and priced honestly. Based in Paxton, MA, Anthony launched the company to build something he was proud of — a business that treats every customer like a neighbor and every job like it matters.
+            Reece Group LLC was founded by Anthony Reece with one guiding principle: that electrical work should be done right, explained clearly, and priced honestly. Based in Worcester, MA, Anthony launched the company to build something he was proud of — a business that treats every customer like a neighbor and every job like it matters.
           </p>
           <p style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontSize: '17px', lineHeight: 1.85, color: 'var(--color-ink-mid)', marginBottom: '24px' }}>
             Today, Reece Group LLC serves homeowners and businesses across all 351 cities and towns in Massachusetts. Whether it's a single outlet, a panel upgrade, or a full commercial build-out — every project receives the same level of care, code compliance, and professionalism.
@@ -356,7 +356,7 @@ export default function About() {
             maxWidth: '640px',
           }}
         >
-          Based in Paxton, MA, we proudly serve all 351 cities and towns across the Commonwealth — including Worcester, Shrewsbury, Northborough, Westborough, Holden, Spencer, Leicester, and beyond. No matter where you are in Massachusetts, we're ready to help.
+          Based in Worcester, MA, we proudly serve all 351 cities and towns across the Commonwealth — with a focus on Central Massachusetts including Shrewsbury, Northborough, Westborough, Holden, Spencer, Leicester, Auburn, and beyond. No matter where you are in Massachusetts, we're ready to help.
         </p>
 
         {/* Google Maps placeholder */}

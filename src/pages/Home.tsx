@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <PageWrapper>
       <SEOHead
-        title="Licensed Electrician in Paxton, MA | Reece Group LLC"
+        title="Licensed Electrician in Worcester, MA | Reece Group LLC"
         description="Reece Group LLC provides expert electrical services across Massachusetts. Residential, commercial, panel upgrades & EV chargers. Call for a free estimate."
         canonical="/"
         schema={localBusinessSchema}

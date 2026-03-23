@@ -133,7 +133,7 @@ export default function Services() {
   return (
     <PageWrapper>
       <SEOHead
-        title="Electrical Services | Reece Group LLC — Paxton, MA"
+        title="Electrical Services | Reece Group LLC — Worcester, MA"
         description="From panel upgrades to EV charger installation, Reece Group LLC offers comprehensive electrical services. Licensed & insured. Serving all of Massachusetts."
         canonical="/services"
         schema={schema}

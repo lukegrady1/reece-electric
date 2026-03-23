@@ -1,8 +1,7 @@
 const items = [
-  'Licensed in Massachusetts',
   'Serving All 351 Cities & Towns',
   'Licensed Electrician',
-  'Paxton, MA Based',
+  'Worcester, MA Based',
   'Fully Insured',
 ]
 

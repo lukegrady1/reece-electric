@@ -61,7 +61,7 @@ const errorStyle: React.CSSProperties = {
 const contactRows = [
   { icon: Phone, label: 'Phone', value: '(508) 793-8788', href: 'tel:+15087938788' },
   { icon: Mail, label: 'Email', value: 'reecegroupllc@gmail.com', href: 'mailto:reecegroupllc@gmail.com' },
-  { icon: MapPin, label: 'Location', value: 'Paxton, MA · Worcester County', href: undefined },
+  { icon: MapPin, label: 'Location', value: 'Worcester, MA · Central Massachusetts', href: undefined },
   { icon: Clock, label: 'Hours', value: 'Mon–Fri: 7am – 6pm', href: undefined },
 ]
 
@@ -84,7 +84,7 @@ export default function Contact() {
     <PageWrapper>
       <SEOHead
         title="Contact Reece Group LLC | Free Electrical Estimate"
-        description="Get a free estimate from Reece Group LLC. Call, email, or fill out our contact form. Serving Paxton, MA and all of Massachusetts."
+        description="Get a free estimate from Reece Group LLC. Call, email, or fill out our contact form. Serving Worcester, Central Massachusetts, and all 351 MA cities and towns."
         canonical="/contact"
         schema={breadcrumbSchema([
           { name: 'Home', url: '/' },

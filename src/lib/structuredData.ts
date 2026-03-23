@@ -8,15 +8,15 @@ export const localBusinessSchema = {
   address: {
     '@type': 'PostalAddress',
     streetAddress: '[ADDRESS]', // TODO: Replace with real street address
-    addressLocality: 'Paxton',
+    addressLocality: 'Worcester',
     addressRegion: 'MA',
-    postalCode: '01612',
+    postalCode: '01601',
     addressCountry: 'US',
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 42.3154, // Paxton, MA
-    longitude: -71.9314,
+    latitude: 42.2626, // Worcester, MA
+    longitude: -71.8023,
   },
   openingHoursSpecification: [
     {
